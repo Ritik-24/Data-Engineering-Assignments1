@@ -29,5 +29,3 @@ This project is configured for **Local Mode**, utilizing local machine threads t
 * **Avoid `collect()`:** Used `show()` for debugging to prevent potential OutOfMemory (OOM) errors by not pulling large datasets into the Driver's memory.
 * **Parquet vs. CSV:** Transitioned from CSV to Parquet to leverage metadata-driven performance and storage compression.
 
----
-*Developed for Week 6: Spark Architecture and Data Processing.*
